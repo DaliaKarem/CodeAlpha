@@ -103,8 +103,10 @@ public class TravelPlan {
         return totalBudget;
     }
     public void displayPlan() {
+         System.out.println("---------------TravelPlan-----------------------");
         System.out.println("Travel Itinerary for " + userName + ":");
         for (Destination destination : destinations) {
+
             System.out.println("Destination: " + destination.name);
             System.out.println("Start Date: " + destination.startDate);
             System.out.println("End Date: " + destination.endDate);
