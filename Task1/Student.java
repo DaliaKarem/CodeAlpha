@@ -1,3 +1,4 @@
+package Task1;
 import java.util.ArrayList;
 //Develop a program that allows a teacher to enter students' grades and
 //compute their average, highest, and lowest scores. You can use arrays
